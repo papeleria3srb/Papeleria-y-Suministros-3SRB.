@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #111111;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+}
+ p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: white;
+    margin: 30px 70px;
+ }
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    align-items: center;
+
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+    
+}
+
+.logo {
+    margin-left: 10px;
+    display: flex;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.logo-image {
+    width: 50px; 
+    height: 50px;
+    border-radius: 50%; 
+    object-fit: cover; 
+    align-items: center;
+}
+
+
+.navbar a {
+    display: block;
+    padding: 25px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: gray;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+    height: 200vh;
+    background: #171717;
+    background-size: cover;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+ }
+
+ h3 {
+    color: white;
+    text-transform: uppercase;
+ }
+
+
+@media (max-width : 788px){
+
+    .title {
+        margin-bottom: 0;
+        font-size: 40;
+    }
+
+    .header {
+        height: 230vh;
+    }
+
+    p {
+        margin: 30px 20px;
+    }
+
+    .navbar {
+        display: none;
+    }
+    
+}
+
+
+.producto {
+    
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 50px;
+    vertical-align: top;
+    text-align: center;
+    align-self: start;
+    display: inline-block;
+    width: 200px;
+    background-color: rgb(39, 39, 39);
+    justify-content: center;
+
+}
+
+
+
